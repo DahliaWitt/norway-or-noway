@@ -1,0 +1,67 @@
+.bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    background-image: url(norway.png);
+    animation: 2s linear 2s normal none infinite up;
+    -webkit-animation: 2s linear 2s normal none infinite up;
+}
+
+#buttonTheBrave {
+    width: 400px;
+    height: 100px;
+    font-size: 38px;
+    background: yellow !important;
+    box-shadow: 0px 1px 0px #3333D6, 0px 2px 0px #FF0000, 0px 3px 0px #FF6600, 0px 4px 0px #006600, 0px 5px 0px #0000FF, 0px 6px 0px #660066, 0px 7px 0px #FF0066;
+    position: relative;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+}
+
+.welcome {
+    background: black;
+    color: white;
+    font-family: "Comic Sans MS", "arial", sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    width: 80%
+}
+
+.norway-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    /* background-image: url(jaiven.png); */
+    background-size: cover;
+    /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* optional, center the image */
+}
+
+@keyframes up {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 0 -1400px;
+    }
+}
+
+h1 {
+    font-size: 38px;
+    color: yellow !important;
+    text-shadow: 0px 1px 0px #3333D6, 0px 2px 0px #FF0000, 0px 3px 0px #FF6600, 0px 4px 0px #006600, 0px 5px 0px #0000FF, 0px 6px 0px #660066, 0px 7px 0px #FF0066;
+    position: relative;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+}
